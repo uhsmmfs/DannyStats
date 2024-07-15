@@ -1,8 +1,8 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='DannyStats',
-    description='Non-violent Stats',
+    description='Nonviolent Stats',
     version="1.0.0",
 
     url='https://github.com/uhsmmfs/DannyStats',
@@ -13,5 +13,5 @@ setup(
     install_requires=[
         'scipy',
     ],
-    packages=['dannystats'],
+    packages=find_packages(exclude=['tests']),
 )

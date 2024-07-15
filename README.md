@@ -1,1 +1,3 @@
 # DannyStats
+
+`import dannystats`

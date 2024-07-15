@@ -1,1 +1,1 @@
-from dannystats import tests
+from scipy import stats

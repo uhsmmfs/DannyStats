@@ -2,7 +2,7 @@
 
 First, install the package:
 
-```
+```console
 cd DannyStats
 python setup.py install
 ```
@@ -11,4 +11,6 @@ Requires `setuptools` (`pip install setuptools`)
 
 Then, import it:
 
-`import dannystats`
+```python
+import dannystats
+```

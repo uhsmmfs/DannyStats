@@ -9,9 +9,11 @@ setup(
     author='UHS Math Modeling for Society',
     author_email='UHSMMforS@gmail.com',
     license='MIT',
-    
+
     install_requires=[
         'scipy',
+        'numpy',
+        'matplotlib',
     ],
     packages=find_packages(exclude=['tests']),
 )
